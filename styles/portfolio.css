@@ -116,10 +116,19 @@ nav .menu a {
 
 }
 
-#banner .banner-image img {
-    max-width: 600px;
-
+.banner-image{
+   overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
+#banner .banner-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: translateY(35px); /* প্রয়োজন অনুযায়ী বাড়াও/কমাও */
+}
+
 
 #about .about-container {
     max-width: 1240;
